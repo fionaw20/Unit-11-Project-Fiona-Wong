@@ -1,0 +1,35 @@
+/* Background Pattern 
+Taken From https://projects.verou.me/css3patterns/ */
+
+body {
+
+  background-color: #009996 !important;
+  background-image: linear-gradient(90deg, rgba(255,255,255,.07) 50%, transparent 50%),
+  linear-gradient(90deg, rgba(255,255,255,.13) 50%, transparent 50%),
+  linear-gradient(90deg, transparent 50%, rgba(255,255,255,.17) 50%),
+  linear-gradient(90deg, transparent 50%, rgba(255,255,255,.19) 50%);
+  background-size: 13px, 29px, 37px, 53px !important;
+  }
+
+h1{
+  background-color: #006e70 !important;
+  color: #90dee0  !important;
+}
+
+
+h2, button{
+  color: #90dee0 !important;
+  background-color: #006e70 !important;
+  font-weight: bold !important;
+}
+
+.navbar{
+  background-color: #90dee0 !important;
+}
+
+
+#myCanvas{
+  border: 5px solid #006e70  ; ;
+  border-radius: 30px;
+
+}
